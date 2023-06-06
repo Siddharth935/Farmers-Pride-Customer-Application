@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Customer</string>
+    <string name="farmer_s_pride">Farmer\'s Pride</string>
+    <string name="sign_in_with_phone">Sign in with phone</string>
+    <string name="sign_in_with_google">Sign in with google</string>
+    <string name="farmers_partner">Farmers Partner</string>
+    <string name="by">By</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="detail_about_crop">Detail About Crop</string>
+    <string name="crop_detail">Crop Detail</string>
+    <string name="potato">Potato</string>
+    <string name="corn">Corn</string>
+    <string name="onion">Onion</string>
+    <string name="peanut">Peanut</string>
+    <string name="rice">Rice</string>
+    <string name="ginger">Ginger</string>
+    <string name="enter_your_detail">Enter Your Detail</string>
+    <string name="select_your_image">Select Your Image</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="enter_your_mobile_no">Enter Your Mobile No</string>
+    <string name="enter_your_mobile_no_optional">Enter Your Mobile No(Optional)</string>
+    <string name="enter_your_email_id">Enter Your Email Id</string>
+    <string name="address">Address</string>
+    <string name="city">City :-</string>
+    <string name="pincode">Pincode :-</string>
+    <string name="state">State :-</string>
+    <string name="country">Country :-</string>
+    <string name="submit">Submit</string>
+    <string name="setting">Setting</string>
+    <string name="profile">Profile</string>
+    <string name="cart">Cart</string>
+    <string name="select_your_language">Select Your Language</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="edit_your_profile">Edit Your Profile</string>
+    <string name="name">Name :-</string>
+    <string name="not_uploaded">Not Uploaded</string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CropActivity.Corn">
+    <include layout="@layout/custome_toolbar"
+        android:id="@+id/toolbar"/>
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:layout_below="@id/toolbar"
+        android:id="@+id/CornShimmer"
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <include layout="@layout/shimmer_vegitable_load_templete" />
+            <include layout="@layout/shimmer_vegitable_load_templete" />
+            <include layout="@layout/shimmer_vegitable_load_templete" />
+        </LinearLayout>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@+id/toolbar"
+        android:id="@+id/CornRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+</RelativeLayout>
